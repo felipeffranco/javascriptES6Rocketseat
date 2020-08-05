@@ -1,0 +1,25 @@
+{
+  "name": "javascriptES6Rocketseat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.0",
+    "@babel/plugin-transform-async-to-generator": "^7.8.3",
+    "@babel/preset-env": "^7.9.0",
+    "axios": "^0.19.2",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development"
+  },
+  "devDependencies": {
+    "@babel/polyfill": "^7.8.7",
+    "build": "webpack --mode=production",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
